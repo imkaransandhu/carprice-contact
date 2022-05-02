@@ -1,0 +1,105 @@
+:root {
+  /* Font-sizes */
+  --big-heading: 65px;
+  --main-heading: 35px;
+  --valuation-title-font-size: 22px;
+  --link-text: 15px;
+  --button-text: 18px;
+  --main-text: 18px;
+  --small-text: 12px;
+
+  /* Colors */
+  /* Color for custon button and hover over links */
+  --semi-dark-blue-color: #5e879d;
+  --whitesmoke-bg-color: #f4f8f9;
+}
+
+@font-face {
+  font-family: MavenProBold;
+  src: url("./assets/fonts/Maven\ Pro\ Bold.otf");
+}
+
+@font-face {
+  font-family: MavenProRegular;
+  src: url("./assets/fonts/Maven\ Pro\ Regular.otf");
+}
+
+.card h3 {
+  font-family: "MavenProBold" !important;
+}
+
+.card p {
+  font-family: "MavenProRegular" !important;
+}
+
+#hbspt-form-1651284111377-9539153705 .hs-button {
+  color: red;
+}
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  :root {
+    /* Font-sizes */
+    --big-heading: 60px;
+    --main-heading: 30px;
+    --valuation-title-font-size: 22px;
+    --link-text: 13px;
+    --button-text: 18px;
+    --main-text: 18px;
+    --small-text: 12px;
+  }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  :root {
+    /* Font-sizes */
+    --big-heading: 50px;
+    --main-heading: 25px;
+    --valuation-title-font-size: 20px;
+    --link-text: 12px;
+    --button-text: 15px;
+    --main-text: 15px;
+    --small-text: 10px;
+  }
+
+  .health-care-content-block {
+    padding: 150px 0;
+  }
+}
+
+/* Wide Mobile Layout: less than 768px. */
+@media only screen and (max-width: 767px) {
+  :root {
+    /* Font-sizes */
+    --big-heading: 40px;
+    --main-heading: 22px;
+    --valuation-title-font-size: 20px;
+    --link-text: 12px;
+    --button-text: 15px;
+    --main-text: 15px;
+    --small-text: 10px;
+  }
+
+  .health-care-content-block {
+    padding: 70px 0;
+  }
+}
+
+/* Mobile Layout: less than 481px. */
+@media only screen and (max-width: 480px) {
+  :root {
+    /* Font-sizes */
+    --big-heading: 27px;
+    --main-heading: 18px;
+    --valuation-title-font-size: 20px;
+    --link-text: 12px;
+    --button-text: 15px;
+    --main-text: 15px;
+    --small-text: 10px;
+  }
+
+  .health-care-content-block {
+    padding: 50px 0;
+  }
+}
